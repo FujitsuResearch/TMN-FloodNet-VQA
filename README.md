@@ -1,7 +1,7 @@
 # TMN-FloodNet-VQA
 Transformer Module Networks for Post-Flood Damage Assessment through Visual Question Answering
 
-# Before Running TMN for FloodNet
+# Before Running TMN for FloodVQA
 This codebase is built on top of Transformer Module Networks (Repository: https://gitlab.com/llml-mit/modular_transformer).
 1) Clone this current Repository.
 3) Download FloodNet Data - https://drive.google.com/drive/folders/1g1r419bWBe4GEF-7si5DqWCjxiC8ErnY?usp=sharing
@@ -11,14 +11,14 @@ This codebase is built on top of Transformer Module Networks (Repository: https:
    - Vocabs (Function Vocabs, Argument Vocabs, Answer Vocabs) - Can be downloaded from this repo
 5) Note that, when modularity of program changes then "args" matrix in DataLoader.py must change (num_prog_length, num_args)
 
-# Execute Training TMN-FloodNet
+# Execute Training TMN-FloodVQA
 - For Linux based OS: \
 `bash TMN_FloodNet_VF_Trainer.sh`
 - For Windows based OS:\
 `python './TMN_FloodNet_VF_Trainer.py' --learning_rate 1e-5 --save_name 'FloodNet_VF_Test' --im_height 64 --im_width 64 --num_epochs 20.0 --batch_size 32 --gas 1 --num_module_layers 1 --arch 's' --vf 'vt'`
 - Note: Change any parameters as needed
 
-# Execute Evaluation TMN-FloodNet
+# Execute Evaluation TMN-FloodVQA
 - For Linux based OS: \
 `bash TMN_FloodNet_VF_Evaluator.sh`
 - For Windows based OS:\
