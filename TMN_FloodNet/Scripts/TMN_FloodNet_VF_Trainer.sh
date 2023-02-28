@@ -1,0 +1,1 @@
+python './TMN_FloodNet_VF_Trainer.py' --learning_rate 1e-5 --save_name 'FloodNet_VF_Test' --im_height 64 --im_width 64 --num_epochs 20.0 --batch_size 32 --gas 1 --num_module_layers 1 --arch 's' --vf 'vt'
