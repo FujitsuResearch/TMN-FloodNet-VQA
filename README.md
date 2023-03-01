@@ -16,14 +16,16 @@ This codebase is built on top of Transformer Module Networks (Repository: https:
 `bash TMN_FloodNet_VF_Trainer.sh`
 - For Windows based OS:\
 `python './TMN_FloodNet_VF_Trainer.py' --learning_rate 1e-5 --save_name 'FloodNet_VF_Test' --im_height 64 --im_width 64 --num_epochs 20.0 --batch_size 32 --gas 1 --num_module_layers 1 --arch 's' --vf 'vt'`
-- Note: Change any parameters as needed
+- Change any parameters as needed
+- To add new label/answer, also add a dictionary entry in the Answers_Vocab.json
 
 # Execute Evaluation TMN-FloodVQA
 - For Linux based OS: \
 `bash TMN_FloodNet_VF_Evaluator.sh`
 - For Windows based OS:\
 `python './TMN_FloodNet_VF_Evaluator.py' --from_pretrained './TMN_FloodNet/Results/FloodNet_VT/Model/FloodNet_VF_Train_20/TMN_FloodNet_L1_Ep20.bin' --im_height 64 --im_width 64 --seed 1 --batch_size 32 --num_module_layers 1 --arch 's' --vf 'vt'`
-- Note: Change any parameters as needed
+- Change any parameters as needed
+- To add new label/answer, also add a dictionary entry in the Answers_Vocab.json
 
 # Note:
 - This repository is still in Development Phase
