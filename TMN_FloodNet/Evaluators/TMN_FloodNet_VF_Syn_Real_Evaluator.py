@@ -103,7 +103,7 @@ def main():
                                        max_prog_seq = 2, # Maximum Program Sequence
                                        num_progs = 6,    # Number of different programs
                                        num_args = 6,     # Number of different arguments
-                                       num_labels = 41)  # Number of Possible Answers in Entire Dataset
+                                       num_labels = 42)  # Number of Possible Answers in Entire Dataset
     model = TransformerModuleNetWithExtractor(config, transformer, extractor)
 
     if args.from_pretrained:
