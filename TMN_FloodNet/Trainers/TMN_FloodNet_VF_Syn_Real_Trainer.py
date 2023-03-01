@@ -16,7 +16,7 @@ from torch.utils.data import random_split
 from transformers import (WEIGHTS_NAME, AdamW, get_linear_schedule_with_warmup, BertConfig, BertTokenizer)
 
 from TMN_FloodNet.Config import PATH
-from TMN_FloodNet.DataLoader import FloodNetVQA
+from TMN_FloodNet.DataLoader import FloodNetVQA, Synthetic_Dataset
 from TMN.models.module_vf import TransformerModuleNetWithExtractor
 
 logging.basicConfig(format = "%(asctime)s [%(levelname)s] %(name)s:%(lineno)s %(funcName)s %(message)s",
@@ -26,12 +26,12 @@ logger = logging.getLogger(__name__)
 def main():
     parser = argparse.ArgumentParser()
     # Dataset Arguments
-    parser.add_argument("--save_name", default='FloodNet_Test', type=str, help="save name for training.")
+    parser.add_argument("--save_name", default='FloodNet_Syn_Real', type=str, help="save name for training.")
     parser.add_argument("--start_epoch", default=0, type=float, help="start epoch.")
     parser.add_argument("--num_epochs", default=20.0, type=float, help="Total number of training epochs to perform.")
     parser.add_argument("--batch_size", default=32, type=int, help="training batch size")
-    parser.add_argument("--im_height", default=64, type=int, help="image height")
-    parser.add_argument("--im_width", default=64, type=int, help="image width")
+    parser.add_argument("--im_height", default=128, type=int, help="image height")
+    parser.add_argument("--im_width", default=128, type=int, help="image width")
     # Training Arguments
     parser.add_argument("--learning_rate", default=1e-5, type=float, help="The initial learning rate for Adam.")
     parser.add_argument("--gas", default=1, type=float, help="gradient accumulation steps")
@@ -120,28 +120,26 @@ def main():
 
     model.to(device)
     print('Model Initialized to: ',device)
-    
-    dataset = FloodNetVQA(dataroot = path_cfgs.dataset_path,
-                          partition = 'Train',
-                          height = args.im_height,
-                          width = args.im_width)
-    #print('Training Dataset Loaded')
 
+    train_dataset = Synthetic_Dataset(dataroot = path_cfgs.dataset_path,
+                                      height = args.im_height,
+                                      width = args.im_width)
+    
+    test_dataset = FloodNetVQA(dataroot = path_cfgs.dataset_path,
+                               partition = 'Train',
+                               height = args.im_height,
+                               width = args.im_width)
+    
     TRAIN_DATA_LEN = 3000
     VAL_DATA_LEN = 500
-    TEST_DATA_LEN = len(dataset) - (TRAIN_DATA_LEN + VAL_DATA_LEN)
+    TEST_DATA_LEN = len(test_dataset) - (TRAIN_DATA_LEN + VAL_DATA_LEN)
 
-    train_dataset, validation_dataset, test_dataset = random_split(dataset, [TRAIN_DATA_LEN, VAL_DATA_LEN, TEST_DATA_LEN])
-    print("Training Data Examples: ",len(train_dataset))
-    print("Validation Data Examples:",len(validation_dataset))
-    print("Test Data Examples:",len(test_dataset)) 
+    _, validation_dataset, test_dataset = random_split(test_dataset, [TRAIN_DATA_LEN, VAL_DATA_LEN, TEST_DATA_LEN])
+    
+    print("Synthetic Training Data Examples: ",len(train_dataset))
+    print("Real Validation Data Examples   :",len(validation_dataset))
+    print("Real Test Data Examples         :",len(test_dataset)) 
     print('Datasets Loaded')
-
-    #validation_dataset = FloodNetVQA(dataroot = path_cfgs.dataset_path,
-    #                                 partition = 'Val',
-    #                                 height = 64,
-    #                                 width = 64)
-    #print('Validation Dataset Loaded')
 
     train_batch_size = args.batch_size
     val_batch_size = args.batch_size 
@@ -327,7 +325,7 @@ def main():
             best_model = model
             print("Model Save Policy: Best Validation Accuracy. Saving finetuned model at Epoch: ", epochId)
             model_to_save = (model.module if hasattr(model, "module") else model)  # Only save the model it-self
-            output_model_file = os.path.join(savePath, "TMN_FloodNet_L" + str(args.num_module_layers) + '_Ep' + str(int(args.num_epochs)) + ".bin")
+            output_model_file = os.path.join(savePath, "TMN_FloodNet_Syn_Real_L" + str(args.num_module_layers) + '_Ep' + str(int(args.num_epochs)) + ".bin")
 
         torch.save(model_to_save.state_dict(), output_model_file)
 

@@ -17,7 +17,7 @@ from torch.utils.data import random_split
 from transformers import (WEIGHTS_NAME, AdamW, get_linear_schedule_with_warmup, BertConfig, BertTokenizer)
 
 from TMN_FloodNet.Config import PATH
-from TMN_FloodNet.DataLoader import FloodNetVQA
+from TMN_FloodNet.DataLoader import FloodNetVQA, Synthetic_Dataset
 from TMN.models.module_vf import TransformerModuleNetWithExtractor
 
 logging.basicConfig(format = "%(asctime)s [%(levelname)s] %(name)s:%(lineno)s %(funcName)s %(message)s",
@@ -27,8 +27,8 @@ logger = logging.getLogger(__name__)
 def main():
     parser = argparse.ArgumentParser()
     # Dataset Arguments
-    parser.add_argument("--im_height", default=64, type=int, help="image height")
-    parser.add_argument("--im_width", default=64, type=int, help="image width")
+    parser.add_argument("--im_height", default=128, type=int, help="image height")
+    parser.add_argument("--im_width", default=128, type=int, help="image width")
     # Evaluation Arguments
     parser.add_argument("--seed", type=int, default=42, help="random seed for initialization")
     parser.add_argument("--batch_size", default=32, type=int, help="training batch size")
@@ -113,19 +113,20 @@ def main():
     model.to(device)
     print('Model Initialized to: ',device)
     
-    dataset = FloodNetVQA(dataroot = path_cfgs.dataset_path,
-                          partition = 'Train',
-                          height = args.im_height,
-                          width = args.im_width)
-    #print('Training Dataset Loaded')
-
+    test_dataset = FloodNetVQA(dataroot = path_cfgs.dataset_path,
+                               partition = 'Train',
+                               height = args.im_height,
+                               width = args.im_width)
+    
     TRAIN_DATA_LEN = 3000
     VAL_DATA_LEN = 500
-    TEST_DATA_LEN = len(dataset) - (TRAIN_DATA_LEN + VAL_DATA_LEN)
+    TEST_DATA_LEN = len(test_dataset) - (TRAIN_DATA_LEN + VAL_DATA_LEN)
 
-    _, _, test_dataset = random_split(dataset, [TRAIN_DATA_LEN, VAL_DATA_LEN, TEST_DATA_LEN])
-    print("Test Data Examples:",len(test_dataset)) 
-
+    _, _, test_dataset = random_split(test_dataset, [TRAIN_DATA_LEN, VAL_DATA_LEN, TEST_DATA_LEN])
+    
+    print("Real Test Data Examples:",len(test_dataset)) 
+    print('Test Dataset Loaded')
+    
     test_data_loader = DataLoader(test_dataset, 
                                   batch_size = args.batch_size, 
                                   num_workers = 4)
