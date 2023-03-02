@@ -1,0 +1,1 @@
+python './TMN_FloodNet_VF_Syn_Real_KLD_Trainer.py' --learning_rate 1e-5 --save_name 'FloodNet_VF_Syn_Real' --im_height 128 --im_width 128 --num_epochs 20.0 --batch_size 32 --gas 1 --num_module_layers 2 --arch 's' --vf 'vt'
