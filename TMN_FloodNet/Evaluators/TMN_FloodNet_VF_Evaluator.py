@@ -1,5 +1,8 @@
 import sys
-sys.path.append("../../FloodNet/Code")
+import pathlib
+current_dir = pathlib.Path(__file__).resolve().parent
+print(current_dir)
+sys.path.append( str(current_dir) + '/../../' )
 
 import os
 import math

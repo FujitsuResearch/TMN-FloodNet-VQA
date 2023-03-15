@@ -1,5 +1,9 @@
 import sys
-sys.path.append("../../FloodNet/Code")
+import pathlib
+current_dir = pathlib.Path(__file__).resolve().parent
+print(current_dir)
+sys.path.append( str(current_dir) + '/../../' )
+
 
 import os
 import math
@@ -268,7 +272,7 @@ def main():
                 loss_tmp = 0
                 step_tmp = 0
 
-                if global_step % 20 == 0 and global_step != 0:
+                if (step + 1)) % 20 == 0 and global_step != 0:
                     global_loss_tmp = global_loss_tmp / 20.0
                     global_matches_tmp = global_matches_tmp / (gradient_accumulation_steps * train_batch_size * 20.0)
 
