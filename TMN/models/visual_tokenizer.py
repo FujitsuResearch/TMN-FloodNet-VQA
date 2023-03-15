@@ -12,7 +12,8 @@ class VisualTokenizer(nn.Module):
 
         self.hidden_size = config.hidden_size
 
-        self.backbone = torchvision.models.resnet101(pretrained=True)
+        # self.backbone = torchvision.models.resnet101(pretrained=True)
+        self.backbone = torchvision.models.resnet101(weights=torchvision.models.ResNet101_Weights.IMAGENET1K_V1)
         self.backbone.out_channels = 2048
 
         # return_layers = {"layer1": "0", "layer2": "1", "layer3": "2", "layer4": "3"} 

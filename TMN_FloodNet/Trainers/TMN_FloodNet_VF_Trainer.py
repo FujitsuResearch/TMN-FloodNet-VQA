@@ -4,13 +4,13 @@ current_dir = pathlib.Path(__file__).resolve().parent
 print(current_dir)
 sys.path.append( str(current_dir) + '/../../' )
 
-
 import os
 import math
 import random
 import logging
 import argparse
 import numpy as np
+import csv
 
 import torch
 from torch import nn
@@ -225,9 +225,9 @@ def main():
         # Model Training
         for step, batch in enumerate(train_data_loader):
             iterId = startIterID + step + (epochId * num_steps)
-            if device != torch.device("cpu"):
-                #batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
-                img, qs, qs_type, pg_str, arguments, answer_id = (batch)
+            # if device != torch.device("cpu"):
+            #     batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
+            img, qs, qs_type, pg_str, arguments, answer_id = (batch)
 
             # Visual Tokenizer does not use these arguments
             regions, img_info, spatials, image_mask  = None, None, None, None  
@@ -272,7 +272,7 @@ def main():
                 loss_tmp = 0
                 step_tmp = 0
 
-                if (step + 1)) % 20 == 0 and global_step != 0:
+                if (step + 1) % 20 == 0 and global_step != 0:
                     global_loss_tmp = global_loss_tmp / 20.0
                     global_matches_tmp = global_matches_tmp / (gradient_accumulation_steps * train_batch_size * 20.0)
 
@@ -291,8 +291,8 @@ def main():
 
         for step, batch in enumerate(validation_data_loader):
             iterId = startIterID + step + (epochId * num_steps)
-            #if device != torch.device("cpu"):
-                #batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
+            # if device != torch.device("cpu"):
+            #     batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
             img, qs, qs_type, pg_str, arguments, answer_id = (batch)
             regions, img_info, spatials, image_mask  = None, None, None, None  # Visual Tokenizer does not use these arguments
             #spatials = np.zeros((self.region_len, 5))
@@ -329,7 +329,8 @@ def main():
             best_model = model
             print("Model Save Policy: Best Validation Accuracy. Saving finetuned model at Epoch: ", epochId)
             model_to_save = (model.module if hasattr(model, "module") else model)  # Only save the model it-self
-            output_model_file = os.path.join(savePath, "TMN_FloodNet_L" + str(args.num_module_layers) + '_Ep' + str(int(args.num_epochs)) + '_ImSize' + str(int(args.im_height)) + ".bin")
+            file_name = "TMN_FloodNet_L" + str(args.num_module_layers) + '_Ep' + str(int(args.num_epochs)) + '_ImSize' + str(int(args.im_height)) + ".pt"
+            output_model_file = os.path.join(savePath, file_name)
 
         torch.save(model_to_save.state_dict(), output_model_file)
 
@@ -349,9 +350,9 @@ def main():
 
     for step, batch in enumerate(test_data_loader):
         iterId = startIterID + step + (epochId * num_steps)
-        if device != torch.device("cpu"):
-            #batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
-            img, qs, qs_type, pg_str, arguments, answer_id = (batch)
+        # if device != torch.device("cpu"):
+        #     batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
+        img, qs, qs_type, pg_str, arguments, answer_id = (batch)
         regions, img_info, spatials, image_mask  = None, None, None, None  # Visual Tokenizer does not use these arguments
         #spatials = np.zeros((self.region_len, 5))
         
@@ -381,6 +382,12 @@ def main():
     print(f'Testing Accuracy:{eval_score}, Loss:{"{:.4f}".format(eval_loss)}', flush=True)
     logger.info('Model Testing Finished')
     print('Experiment Finished')
+
+    row_data=[args.num_epochs, args.learning_rate, args.im_height, args.num_module_layers, args.batch_size, args.seed, f'{best_eval_score:3f}', f'{eval_score:3f}', args.save_name, file_name]
+    with open(path_cfgs.csv_path, 'a', newline='') as f:  
+        writer = csv.writer(f)
+        writer.writerow(row_data)
+        f.close()
 
 if __name__ == "__main__":
     main()

@@ -89,7 +89,8 @@ class TransformerModuleNet(nn.Module):
         self.num_args = num_args
 
         config.output_attentions = False
-        self.num_region = config.num_region
+        # self.num_region = config.num_region
+        self.num_region = 1025 # maximum size = 1024 x 1024 => 32 x 32 + 1 = 1025
 
         self.t_modules = nn.ModuleList([TransformerModule(config) for _ in range(self.num_modules)])
 
