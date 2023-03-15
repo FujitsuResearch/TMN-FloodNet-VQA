@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r"C:\Users\akradiptad\OneDrive - FUJITSU\Desktop\Work\BIG - FRJ and MIT\FloodNet\Code")
+sys.path.append("../../FloodNet/Code")
 
 import os
 import math
@@ -125,23 +125,19 @@ def main():
                           partition = 'Train',
                           height = args.im_height,
                           width = args.im_width)
-    #print('Training Dataset Loaded')
 
-    TRAIN_DATA_LEN = 3000
-    VAL_DATA_LEN = 500
-    TEST_DATA_LEN = len(dataset) - (TRAIN_DATA_LEN + VAL_DATA_LEN)
+    test_dataset = FloodNetVQA(dataroot = path_cfgs.dataset_path,
+                               partition = 'Test',
+                               height = args.im_height,
+                               width = args.im_width)
 
-    train_dataset, validation_dataset, test_dataset = random_split(dataset, [TRAIN_DATA_LEN, VAL_DATA_LEN, TEST_DATA_LEN])
+    train_dataset, validation_dataset = random_split(dataset, 
+                                                     [0.75,0.25],
+                                                     generator=torch.Generator().manual_seed(args.seed))
     print("Training Data Examples: ",len(train_dataset))
     print("Validation Data Examples:",len(validation_dataset))
     print("Test Data Examples:",len(test_dataset)) 
     print('Datasets Loaded')
-
-    #validation_dataset = FloodNetVQA(dataroot = path_cfgs.dataset_path,
-    #                                 partition = 'Val',
-    #                                 height = 64,
-    #                                 width = 64)
-    #print('Validation Dataset Loaded')
 
     train_batch_size = args.batch_size
     val_batch_size = args.batch_size 
@@ -155,12 +151,13 @@ def main():
                                    shuffle = True)
     validation_data_loader = DataLoader(validation_dataset, 
                                         batch_size = val_batch_size, 
-                                        num_workers = 4)
+                                        num_workers = 4,
+                                        drop_last = True)
     test_data_loader = DataLoader(test_dataset, 
                                   batch_size = val_batch_size, 
                                   num_workers = 4)
 
-    num_train_optimization_steps = (math.ceil(TRAIN_DATA_LEN / train_batch_size / gradient_accumulation_steps)* (num_train_epochs - start_epoch))
+    num_train_optimization_steps = (math.ceil(len(train_dataset) / train_batch_size / gradient_accumulation_steps)* (num_train_epochs - start_epoch))
 
     # warmup_steps = num_train_optimization_steps * 0.1
     warmup_steps = 0
@@ -197,7 +194,7 @@ def main():
     print(f'Gradient Accumulation steps = {gradient_accumulation_steps}')
     print(f'Total optimization steps = {num_train_optimization_steps}')
 
-    num_steps = int(TRAIN_DATA_LEN / train_batch_size / gradient_accumulation_steps)
+    num_steps = int(len(train_dataset) / train_batch_size / gradient_accumulation_steps)
     model.zero_grad()
     
     global_step = 0
@@ -212,8 +209,7 @@ def main():
 
     logger.info('Model Training Started')
     torch.autograd.set_detect_anomaly(True)
-    
-    # Model Training
+      
     for epochId in range(int(start_epoch), int(num_train_epochs)):
         model.train()
         matches_tmp = 0
@@ -221,12 +217,14 @@ def main():
         step_tmp = 0
         global_loss_tmp = 0
         global_matches_tmp = 0
-
+        
+        # Model Training
         for step, batch in enumerate(train_data_loader):
             iterId = startIterID + step + (epochId * num_steps)
             if device != torch.device("cpu"):
-                batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
-            img, qs, qs_type, pg_str, arguments, answer_id = (batch)
+                #batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
+                img, qs, qs_type, pg_str, arguments, answer_id = (batch)
+
             # Visual Tokenizer does not use these arguments
             regions, img_info, spatials, image_mask  = None, None, None, None  
 
@@ -282,15 +280,15 @@ def main():
         # Validation after Each Epoch 
         torch.set_grad_enabled(False)
         model.eval()
-
+    
         eval_total_matches = 0
         eval_total_loss = 0
         step_tmp_val = 0
 
         for step, batch in enumerate(validation_data_loader):
             iterId = startIterID + step + (epochId * num_steps)
-            if device != torch.device("cpu"):
-                batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
+            #if device != torch.device("cpu"):
+                #batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
             img, qs, qs_type, pg_str, arguments, answer_id = (batch)
             regions, img_info, spatials, image_mask  = None, None, None, None  # Visual Tokenizer does not use these arguments
             #spatials = np.zeros((self.region_len, 5))
@@ -315,8 +313,8 @@ def main():
             eval_total_loss += loss.item()
             step_tmp_val += img.size(0)
 
-        eval_score = eval_total_matches / float(VAL_DATA_LEN)
-        eval_loss = eval_total_loss / float(VAL_DATA_LEN)
+        eval_score = eval_total_matches / float(len(validation_dataset))
+        eval_loss = eval_total_loss / float(len(validation_dataset))
 
         print(f'Validation Epoch:{epochId}, Accuracy:{eval_score}, Loss:{"{:.4f}".format(eval_loss)}', flush=True)
         torch.set_grad_enabled(True)
@@ -327,7 +325,7 @@ def main():
             best_model = model
             print("Model Save Policy: Best Validation Accuracy. Saving finetuned model at Epoch: ", epochId)
             model_to_save = (model.module if hasattr(model, "module") else model)  # Only save the model it-self
-            output_model_file = os.path.join(savePath, "TMN_FloodNet_L" + str(args.num_module_layers) + '_Ep' + str(int(args.num_epochs)) + ".bin")
+            output_model_file = os.path.join(savePath, "TMN_FloodNet_L" + str(args.num_module_layers) + '_Ep' + str(int(args.num_epochs)) + '_ImSize' + str(int(args.im_height)) + ".bin")
 
         torch.save(model_to_save.state_dict(), output_model_file)
 
@@ -348,8 +346,8 @@ def main():
     for step, batch in enumerate(test_data_loader):
         iterId = startIterID + step + (epochId * num_steps)
         if device != torch.device("cpu"):
-            batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
-        img, qs, qs_type, pg_str, arguments, answer_id = (batch)
+            #batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
+            img, qs, qs_type, pg_str, arguments, answer_id = (batch)
         regions, img_info, spatials, image_mask  = None, None, None, None  # Visual Tokenizer does not use these arguments
         #spatials = np.zeros((self.region_len, 5))
         
@@ -373,8 +371,8 @@ def main():
         eval_total_loss += loss.item()
         step_tmp_val += img.size(0)
 
-    eval_score = eval_total_matches / float(TEST_DATA_LEN)
-    eval_loss = eval_total_loss / float(TEST_DATA_LEN)
+    eval_score = eval_total_matches / float(len(test_dataset))
+    eval_loss = eval_total_loss / float(len(test_dataset))
 
     print(f'Testing Accuracy:{eval_score}, Loss:{"{:.4f}".format(eval_loss)}', flush=True)
     logger.info('Model Testing Finished')

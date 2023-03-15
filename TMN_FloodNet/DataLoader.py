@@ -23,7 +23,7 @@ class Synthetic_Dataset(Dataset):
                 args (tensor): Encoded program [Batchsize x 2(Max_Program_Length) x 3(Max_Arguments + 1 for Function)]
                 answer (tensor): Encoded Answers/Ground Truth Labels [Batchsize x 1]
         """
-        self.syntheic_dataroot = r'C:\Users\akradiptad\OneDrive - FUJITSU\Desktop\Work\BIG - FRJ and MIT\FloodNet\Code\Data\Synthetic_Data'
+        self.syntheic_dataroot = "/DATA/FloodNet/Code/Data/Synthetic_Data"
         self.im_height = height
         self.im_width = width
         self.args_vocab = json.load(open(os.path.join(dataroot, 'Vocabs', 'Arguments_Vocab.json'), 'r'))
@@ -149,14 +149,14 @@ class FloodNetVQA(Dataset):
         self.answer_list = []
 
         if partition == 'Train':
-            question_file = open(os.path.join(self.qs_dataroot,'Train_Question_Programs.json'))
+            question_file = open(os.path.join(self.qs_dataroot,'Train_Questions_Programs.json'))
             self.im_dataroot = os.path.join(self.im_dataroot, 'Train_Image')
-        elif partition == 'Val':
-            question_file = open(os.path.join(self.qs_dataroot,'Valid_Question_Programs.json'))
-            self.im_dataroot = os.path.join(self.im_dataroot, 'Valid_Image')
+        #elif partition == 'Val':
+        #    question_file = open(os.path.join(self.qs_dataroot,'Valid_Question_Programs.json'))
+        #    self.im_dataroot = os.path.join(self.im_dataroot, 'Valid_Image')
         elif partition == 'Test':
-            question_file = open(os.path.join(self.qs_dataroot,'Test_Question_Programs.json'))
-            self.im_dataroot = os.path.join(self.im_dataroot, 'Test_Image')
+            question_file = open(os.path.join(self.qs_dataroot,'Test_Questions_Programs.json'))
+            self.im_dataroot = os.path.join(self.im_dataroot, 'Train_Image')
         data = json.load(question_file)
         
         for key in list(data.keys()):

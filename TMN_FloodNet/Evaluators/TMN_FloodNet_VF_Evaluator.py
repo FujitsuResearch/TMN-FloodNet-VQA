@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r"C:\Users\akradiptad\OneDrive - FUJITSU\Desktop\Work\BIG - FRJ and MIT\FloodNet\Code")
+sys.path.append("../../FloodNet/Code")
 
 import os
 import math
@@ -113,18 +113,10 @@ def main():
     model.to(device)
     print('Model Initialized to: ',device)
     
-    dataset = FloodNetVQA(dataroot = path_cfgs.dataset_path,
-                          partition = 'Train',
-                          height = args.im_height,
-                          width = args.im_width)
-    #print('Training Dataset Loaded')
-
-    TRAIN_DATA_LEN = 3000
-    VAL_DATA_LEN = 500
-    TEST_DATA_LEN = len(dataset) - (TRAIN_DATA_LEN + VAL_DATA_LEN)
-
-    _, _, test_dataset = random_split(dataset, [TRAIN_DATA_LEN, VAL_DATA_LEN, TEST_DATA_LEN])
-    print("Test Data Examples:",len(test_dataset)) 
+    test_dataset = FloodNetVQA(dataroot = path_cfgs.dataset_path,
+                               partition = 'Test',
+                               height = args.im_height,
+                               width = args.im_width)
 
     test_data_loader = DataLoader(test_dataset, 
                                   batch_size = args.batch_size, 
@@ -157,8 +149,8 @@ def main():
 
     for step, batch in enumerate(test_data_loader):
         if device != torch.device("cpu"):
-            batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
-        img, qs, qs_type, pg_str, arguments, answer_id = (batch)
+            #batch = tuple(t.cuda(device=device, non_blocking=True) for t in batch)
+            img, qs, qs_type, pg_str, arguments, answer_id = (batch)
         regions, img_info, spatials, image_mask  = None, None, None, None  # Visual Tokenizer does not use these arguments
         #spatials = np.zeros((self.region_len, 5))
         
@@ -182,34 +174,34 @@ def main():
 
         # Question Typewise Score Calculation
         for id in range(len(qs_type)):
-            y_true_total.append(answer_id[id])
-            y_pred_total.append(logits[id])
+            y_true_total.append(answer_id[id].cpu())
+            y_pred_total.append(logits[id].cpu())
             if qs_type[id] == 'Simple_Counting':
                 total_simple += 1
                 if logits[id] == answer_id[id]:
                     eval_simple_matches += 1
-                y_true_simple.append(answer_id[id])
-                y_pred_simple.append(logits[id])
+                y_true_simple.append(answer_id[id].cpu())
+                y_pred_simple.append(logits[id].cpu())
             if qs_type[id] == 'Complex_Counting':
                 total_complex += 1
                 if logits[id] == answer_id[id]:
                     eval_complex_matches += 1
-                y_true_complex.append(answer_id[id])
-                y_pred_complex.append(logits[id])
+                y_true_complex.append(answer_id[id].cpu())
+                y_pred_complex.append(logits[id].cpu())
             if qs_type[id] == 'Yes_No':
                 total_yesno += 1
                 if logits[id] == answer_id[id]:
                     eval_yesno_matches += 1
-                y_true_yesno.append(answer_id[id])
-                y_pred_yesno.append(logits[id])
+                y_true_yesno.append(answer_id[id].cpu())
+                y_pred_yesno.append(logits[id].cpu())
             if qs_type[id] == 'Condition_Recognition':
                 total_condition += 1
                 if logits[id] == answer_id[id]:
                     eval_condition_matches += 1
-                y_true_condition.append(answer_id[id])
-                y_pred_condition.append(logits[id])
+                y_true_condition.append(answer_id[id].cpu())
+                y_pred_condition.append(logits[id].cpu())
 
-    eval_acc = eval_total_matches / float(TEST_DATA_LEN)
+    eval_acc = eval_total_matches / float(len(test_dataset))
     eval_f1 = f1_score(y_true_total, y_pred_total, average='weighted')
     eval_prec = precision_score(y_true_total, y_pred_total, average='weighted')
     eval_simple_acc = eval_simple_matches / float(total_simple)
@@ -224,7 +216,7 @@ def main():
     eval_condition_acc = eval_condition_matches / float(total_condition)
     eval_condition_f1 = f1_score(y_true_condition, y_pred_condition, average='weighted')
     eval_condition_prec = precision_score(y_true_condition, y_pred_condition, average='weighted')
-    eval_loss = eval_total_loss / float(TEST_DATA_LEN)
+    eval_loss = eval_total_loss / float(len(test_dataset))
 
     print('Test Results:') 
     print(f'Total::                         Accuracy: {"{:.4f}".format(eval_acc)}       F1 Score: {"{:.4f}".format(eval_f1)}        Precision: {"{:.4f}".format(eval_prec)}', flush=True)

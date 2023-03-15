@@ -1,9 +1,11 @@
 import os
+import sys
+sys.path.append("../../FloodNet/Code")
 
 class PATH:
     def __init__(self):
 
-        self.root_path = r"C:\Users\akradiptad\OneDrive - FUJITSU\Desktop\Work\BIG - FRJ and MIT\FloodNet\Code"
+        self.root_path = os.getcwd()
         self.dataset_path = os.path.join(self.root_path, "Data")
         self.results_path = os.path.join(self.root_path,"TMN_FloodNet","Results")
         self.storage_path = os.path.join(self.results_path,"FloodNet_VT")

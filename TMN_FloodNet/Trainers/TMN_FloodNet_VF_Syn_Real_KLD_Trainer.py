@@ -151,11 +151,13 @@ def main():
     syn_train_data_loader = DataLoader(syn_dataset, 
                                        batch_size = train_batch_size, 
                                        num_workers = 16, 
-                                       shuffle = True)
+                                       shuffle = True,
+                                       drop_last=True)
     real_train_data_loader = DataLoader(real_train_dataset, 
                                         batch_size = train_batch_size, 
                                         num_workers = 16, 
-                                        shuffle = True)
+                                        shuffle = True,
+                                        drop_last=True)
     validation_data_loader = DataLoader(validation_dataset, 
                                         batch_size = val_batch_size, 
                                         num_workers = 4)
@@ -250,18 +252,18 @@ def main():
                 # Real Forward Pass
                 if device != torch.device("cpu"):
                     real_batch = tuple(t.cuda(device=device, non_blocking=True) for t in real_batch)
-                img, qs, qs_type, pg_str, arguments, answer_id = (real_batch)
+                img, _, _, _, arguments, answer_id = (real_batch)
                 # Visual Tokenizer does not use these arguments
                 regions, img_info, spatials, image_mask  = None, None, None, None  
                 img = img.type(torch.FloatTensor).to(device)
                 arguments = arguments.type(torch.LongTensor).to(device)
-                real_answer_id = answer_id.type(torch.LongTensor).to(device)
-                real_outputs, real_pred =  model(img, spatials, image_mask, arguments, region_props=regions, image_info=img_info)
+                _ = answer_id.type(torch.LongTensor).to(device)
+                real_outputs, _ =  model(img, spatials, image_mask, arguments, region_props=regions, image_info=img_info)
 
             # Mean-Pooling of Synthetic and Real Representations
             syn_outputs = torch.mean(syn_outputs[0], dim=1)
             real_outputs = torch.mean(real_outputs[0], dim=1)
-            
+
             # KL Divergence Loss for Distribution Alignment
             kl_loss = kl_loss_fn(syn_outputs,real_outputs)
             # CrossEntropy Loss on Synthetic Domain

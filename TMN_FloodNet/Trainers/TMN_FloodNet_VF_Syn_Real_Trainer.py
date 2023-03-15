@@ -298,6 +298,8 @@ def main():
             answer_id = answer_id.type(torch.LongTensor).to(device)
             outputs, pred =  model(img, spatials, image_mask, arguments, region_props=regions, image_info=img_info)
 
+            
+
             loss_fn = nn.CrossEntropyLoss()
             loss = loss_fn(pred, answer_id)
 
