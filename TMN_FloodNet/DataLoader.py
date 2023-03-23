@@ -132,8 +132,8 @@ class FloodNetVQA(Dataset):
         self.im_width = width
         self.im_dataroot = os.path.join(dataroot, 'Images')
         self.qs_dataroot = os.path.join(dataroot, 'Questions')
-        self.args_vocab = json.load(open(os.path.join(dataroot, 'Vocabs', 'Arguments_Vocab.json'), 'r'))
-        self.func_vocab = json.load(open(os.path.join(dataroot, 'Vocabs', 'Functions_Vocab.json'), 'r'))
+        self.args_vocab = json.load(open(os.path.join(dataroot, 'Vocabs', 'Arguments_Vocab_New.json'), 'r'))
+        self.func_vocab = json.load(open(os.path.join(dataroot, 'Vocabs', 'Functions_Vocab_New.json'), 'r'))
         self.ans_vocab = json.load(open(os.path.join(dataroot, 'Vocabs', 'Answers_Vocab.json'), 'r'))
         self.partition = partition
         self.preprocess_train = transforms.Compose([transforms.RandomHorizontalFlip(),
@@ -149,13 +149,13 @@ class FloodNetVQA(Dataset):
         self.answer_list = []
 
         if partition == 'Train':
-            question_file = open(os.path.join(self.qs_dataroot,'Train_Questions_Programs.json'))
+            question_file = open(os.path.join(self.qs_dataroot,'Train_Questions_Programs_New.json'))
             self.im_dataroot = os.path.join(self.im_dataroot, 'Train_Image')
         #elif partition == 'Val':
         #    question_file = open(os.path.join(self.qs_dataroot,'Valid_Question_Programs.json'))
         #    self.im_dataroot = os.path.join(self.im_dataroot, 'Valid_Image')
         elif partition == 'Test':
-            question_file = open(os.path.join(self.qs_dataroot,'Test_Questions_Programs.json'))
+            question_file = open(os.path.join(self.qs_dataroot,'Test_Questions_Programs_New.json'))
             self.im_dataroot = os.path.join(self.im_dataroot, 'Train_Image')
         data = json.load(question_file)
         
@@ -210,7 +210,7 @@ class FloodNetVQA(Dataset):
         
         # Program
         program_string = self.program_list[index]
-        program = self._prog_string_to_list(self.program_list[index])
+        program = self._prog_string_to_list(program_string)
         args = np.zeros((2, 3))
         num_progs = 0
         for p in program:
@@ -223,7 +223,7 @@ class FloodNetVQA(Dataset):
             func_idx = self.func_vocab[func]
             args[num_progs][0] = func_idx
             num_progs = num_progs + 1
-        args = torch.from_numpy(args).type(torch.FloatTensor)
+        args = torch.as_tensor(args).long()
         # Answer
         answer = self.answer_list[index]
         answer = self.ans_vocab[str(answer)]

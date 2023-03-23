@@ -1,0 +1,7 @@
+{
+    "None": 0,
+    "Count": 1,
+    "Exists": 2,
+    "Filter": 3,
+    "Condition": 4
+}

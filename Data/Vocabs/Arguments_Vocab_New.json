@@ -1,0 +1,8 @@
+{
+    "None": 0,
+    "Buildings": 1,
+    "Road": 2,
+    "Flooded": 3,
+    "Non_Flooded": 4,
+    "All": 5
+}
