@@ -1,1 +1,1 @@
-python './TMN_FloodNet/Evaluators/TMN_FloodNet_VF_Evaluator.py' --from_pretrained '/DATA/FloodNet/Code/TMN_FloodNet/Results/FloodNet_VT/Model/FloodNet_Result/TMN_FloodNet_L6_Ep20_ImSize128.bin' --im_height 128 --im_width 128 --batch_size 32 --num_module_layers 6 --arch 's' --vf 'vt'
+python './TMN_FloodNet/Evaluators/TMN_FloodNet_VF_Evaluator.py' --from_pretrained '/DATA/FloodNet/Code/TMN_FloodNet/Results/FloodNet_VT/Model/FloodNet_Result/New_TMN_FloodNet_L6_Ep20_ImSize128.bin' --im_height 224 --im_width 224 --batch_size 32 --num_module_layers 6 --arch 's' --vf 'vt'

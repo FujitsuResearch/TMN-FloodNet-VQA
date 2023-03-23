@@ -89,7 +89,8 @@ class TransformerModuleNet(nn.Module):
         self.num_args = num_args
 
         config.output_attentions = False
-        self.num_region = config.num_region
+        # self.num_region = config.num_region
+        self.num_region = 1025 # maximum size = 1024 x 1024 => 32 x 32 + 1 = 1025
 
         self.t_modules = nn.ModuleList([TransformerModule(config) for _ in range(self.num_modules)])
 
@@ -113,7 +114,7 @@ class TransformerModuleNet(nn.Module):
             for b in range(bs):
                 func_id = args[b, step, 0].detach()
                 if func_id < self.num_progs:
-                    arg_id = args[b:b+1, step, 1:2]
+                    arg_id = args[b:b+1, step, 1:3]
                     arg_embed = self.arg_embeddings(arg_id)
                     
                     module_output = self.t_modules[func_id](hidden_states[b:b+1], arg_embed)

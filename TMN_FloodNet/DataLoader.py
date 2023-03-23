@@ -210,7 +210,7 @@ class FloodNetVQA(Dataset):
         
         # Program
         program_string = self.program_list[index]
-        program = self._prog_string_to_list(self.program_list[index])
+        program = self._prog_string_to_list(program_string)
         args = np.zeros((2, 3))
         num_progs = 0
         for p in program:
@@ -223,7 +223,7 @@ class FloodNetVQA(Dataset):
             func_idx = self.func_vocab[func]
             args[num_progs][0] = func_idx
             num_progs = num_progs + 1
-        args = torch.from_numpy(args).type(torch.FloatTensor)
+        args = torch.as_tensor(args).long()
         # Answer
         answer = self.answer_list[index]
         answer = self.ans_vocab[str(answer)]

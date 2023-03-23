@@ -4,14 +4,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1399": {
         "Image_ID": "6985.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1400": {
         "Image_ID": "6985.JPG",
@@ -32,7 +32,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1403": {
         "Image_ID": "6985.JPG",
@@ -53,21 +53,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2954": {
         "Image_ID": "7916.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1493": {
         "Image_ID": "7064.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1494": {
         "Image_ID": "7064.JPG",
@@ -81,21 +81,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "596": {
         "Image_ID": "6616.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "597": {
         "Image_ID": "6616.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "598": {
         "Image_ID": "6616.JPG",
@@ -109,7 +109,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1132": {
         "Image_ID": "6855.JPG",
@@ -123,7 +123,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1134": {
         "Image_ID": "6855.JPG",
@@ -144,14 +144,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "143": {
         "Image_ID": "6352.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "144": {
         "Image_ID": "6352.JPG",
@@ -165,14 +165,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1679": {
         "Image_ID": "7182.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "855": {
         "Image_ID": "6737.JPG",
@@ -186,7 +186,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "857": {
         "Image_ID": "6737.JPG",
@@ -221,28 +221,28 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3410": {
         "Image_ID": "8359.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2916": {
         "Image_ID": "7890.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2917": {
         "Image_ID": "7890.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2918": {
         "Image_ID": "7890.JPG",
@@ -270,14 +270,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2190": {
         "Image_ID": "7422.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2191": {
         "Image_ID": "7422.JPG",
@@ -291,7 +291,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2193": {
         "Image_ID": "7422.JPG",
@@ -319,21 +319,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3232": {
         "Image_ID": "8175.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2636": {
         "Image_ID": "7664.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2637": {
         "Image_ID": "7664.JPG",
@@ -354,14 +354,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "197": {
         "Image_ID": "6379.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "198": {
         "Image_ID": "6379.JPG",
@@ -375,21 +375,21 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3363": {
         "Image_ID": "8342.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3364": {
         "Image_ID": "8342.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3365": {
         "Image_ID": "8342.JPG",
@@ -403,7 +403,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3011": {
         "Image_ID": "7989.JPG",
@@ -417,21 +417,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3013": {
         "Image_ID": "7989.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1305": {
         "Image_ID": "6947.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1306": {
         "Image_ID": "6947.JPG",
@@ -459,21 +459,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3732": {
         "Image_ID": "8770.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3733": {
         "Image_ID": "8770.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3734": {
         "Image_ID": "8770.JPG",
@@ -508,21 +508,21 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "910": {
         "Image_ID": "6762.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "629": {
         "Image_ID": "6639.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "630": {
         "Image_ID": "6639.JPG",
@@ -550,7 +550,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4206": {
         "Image_ID": "9075.JPG",
@@ -571,14 +571,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4209": {
         "Image_ID": "9075.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4210": {
         "Image_ID": "9075.JPG",
@@ -592,7 +592,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4462": {
         "Image_ID": "9797.JPG",
@@ -620,21 +620,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3115": {
         "Image_ID": "8091.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3116": {
         "Image_ID": "8091.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3117": {
         "Image_ID": "8091.JPG",
@@ -662,7 +662,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1051": {
         "Image_ID": "6820.JPG",
@@ -676,7 +676,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3369": {
         "Image_ID": "8345.JPG",
@@ -690,28 +690,28 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3371": {
         "Image_ID": "8345.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3164": {
         "Image_ID": "8142.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3165": {
         "Image_ID": "8142.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3166": {
         "Image_ID": "8142.JPG",
@@ -725,14 +725,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4232": {
         "Image_ID": "9080.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4233": {
         "Image_ID": "9080.JPG",
@@ -746,7 +746,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "192": {
         "Image_ID": "6375.JPG",
@@ -760,28 +760,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3294": {
         "Image_ID": "8249.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3554": {
         "Image_ID": "8465.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3555": {
         "Image_ID": "8465.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3556": {
         "Image_ID": "8465.JPG",
@@ -795,7 +795,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "920": {
         "Image_ID": "6770.JPG",
@@ -816,7 +816,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "923": {
         "Image_ID": "6770.JPG",
@@ -830,7 +830,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4248": {
         "Image_ID": "9085.JPG",
@@ -851,7 +851,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4251": {
         "Image_ID": "9085.JPG",
@@ -865,28 +865,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2803": {
         "Image_ID": "7766.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "149": {
         "Image_ID": "6358.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "150": {
         "Image_ID": "6358.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "151": {
         "Image_ID": "6358.JPG",
@@ -900,7 +900,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "806": {
         "Image_ID": "6713.JPG",
@@ -921,14 +921,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "809": {
         "Image_ID": "6713.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "810": {
         "Image_ID": "6713.JPG",
@@ -949,7 +949,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4425": {
         "Image_ID": "9558.JPG",
@@ -970,7 +970,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4428": {
         "Image_ID": "9558.JPG",
@@ -984,14 +984,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2812": {
         "Image_ID": "7782.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2813": {
         "Image_ID": "7782.JPG",
@@ -1012,7 +1012,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1517": {
         "Image_ID": "7078.JPG",
@@ -1026,14 +1026,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1519": {
         "Image_ID": "7078.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3088": {
         "Image_ID": "8080.JPG",
@@ -1047,28 +1047,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3090": {
         "Image_ID": "8080.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2971": {
         "Image_ID": "7944.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2977": {
         "Image_ID": "7951.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2943": {
         "Image_ID": "7907.JPG",
@@ -1082,14 +1082,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2945": {
         "Image_ID": "7907.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2241": {
         "Image_ID": "7443.JPG",
@@ -1103,7 +1103,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2243": {
         "Image_ID": "7443.JPG",
@@ -1117,21 +1117,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4081": {
         "Image_ID": "9028.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4082": {
         "Image_ID": "9028.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4083": {
         "Image_ID": "9028.JPG",
@@ -1145,28 +1145,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3265": {
         "Image_ID": "8223.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "409": {
         "Image_ID": "6477.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1523": {
         "Image_ID": "7083.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2690": {
         "Image_ID": "7688.JPG",
@@ -1194,28 +1194,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2694": {
         "Image_ID": "7688.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "224": {
         "Image_ID": "6397.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "225": {
         "Image_ID": "6397.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "226": {
         "Image_ID": "6397.JPG",
@@ -1229,14 +1229,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1365": {
         "Image_ID": "6971.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1366": {
         "Image_ID": "6971.JPG",
@@ -1264,14 +1264,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3742": {
         "Image_ID": "8777.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3743": {
         "Image_ID": "8777.JPG",
@@ -1285,7 +1285,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3471": {
         "Image_ID": "8403.JPG",
@@ -1306,7 +1306,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3474": {
         "Image_ID": "8403.JPG",
@@ -1327,14 +1327,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3505": {
         "Image_ID": "8426.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1635": {
         "Image_ID": "7146.JPG",
@@ -1348,14 +1348,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1637": {
         "Image_ID": "7146.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1638": {
         "Image_ID": "7146.JPG",
@@ -1376,7 +1376,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2865": {
         "Image_ID": "7829.JPG",
@@ -1390,7 +1390,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2517": {
         "Image_ID": "7589.JPG",
@@ -1418,21 +1418,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2521": {
         "Image_ID": "7589.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2228": {
         "Image_ID": "7438.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2229": {
         "Image_ID": "7438.JPG",
@@ -1446,7 +1446,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2231": {
         "Image_ID": "7438.JPG",
@@ -1467,7 +1467,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "129": {
         "Image_ID": "6346.JPG",
@@ -1481,14 +1481,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4272": {
         "Image_ID": "9090.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4273": {
         "Image_ID": "9090.JPG",
@@ -1509,7 +1509,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4276": {
         "Image_ID": "9090.JPG",
@@ -1523,7 +1523,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2492": {
         "Image_ID": "7579.JPG",
@@ -1537,7 +1537,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2494": {
         "Image_ID": "7579.JPG",
@@ -1558,7 +1558,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded,non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1122": {
         "Image_ID": "6853.JPG",
@@ -1572,7 +1572,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1124": {
         "Image_ID": "6853.JPG",
@@ -1593,21 +1593,21 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1457": {
         "Image_ID": "7038.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "892": {
         "Image_ID": "6754.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "893": {
         "Image_ID": "6754.JPG",
@@ -1621,7 +1621,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "895": {
         "Image_ID": "6754.JPG",
@@ -1656,7 +1656,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4096": {
         "Image_ID": "9036.JPG",
@@ -1677,14 +1677,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4099": {
         "Image_ID": "9036.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4100": {
         "Image_ID": "9036.JPG",
@@ -1698,7 +1698,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "912": {
         "Image_ID": "6763.JPG",
@@ -1712,21 +1712,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3722": {
         "Image_ID": "8598.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2322": {
         "Image_ID": "7469.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2323": {
         "Image_ID": "7469.JPG",
@@ -1754,7 +1754,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2675": {
         "Image_ID": "7682.JPG",
@@ -1782,28 +1782,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2679": {
         "Image_ID": "7682.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2962": {
         "Image_ID": "7923.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "230": {
         "Image_ID": "6399.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "231": {
         "Image_ID": "6399.JPG",
@@ -1817,14 +1817,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "702": {
         "Image_ID": "6658.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "703": {
         "Image_ID": "6658.JPG",
@@ -1838,7 +1838,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "705": {
         "Image_ID": "6658.JPG",
@@ -1866,14 +1866,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "979": {
         "Image_ID": "6797.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "980": {
         "Image_ID": "6797.JPG",
@@ -1908,7 +1908,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1903": {
         "Image_ID": "7285.JPG",
@@ -1922,14 +1922,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1905": {
         "Image_ID": "7285.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1906": {
         "Image_ID": "7285.JPG",
@@ -1957,7 +1957,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2118": {
         "Image_ID": "7364.JPG",
@@ -1978,7 +1978,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2121": {
         "Image_ID": "7364.JPG",
@@ -1999,21 +1999,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "206": {
         "Image_ID": "6385.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "207": {
         "Image_ID": "6385.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "208": {
         "Image_ID": "6385.JPG",
@@ -2027,14 +2027,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4416": {
         "Image_ID": "9514.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1066": {
         "Image_ID": "6830.JPG",
@@ -2055,14 +2055,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1069": {
         "Image_ID": "6830.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1070": {
         "Image_ID": "6830.JPG",
@@ -2083,14 +2083,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3279": {
         "Image_ID": "8234.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4327": {
         "Image_ID": "9105.JPG",
@@ -2118,14 +2118,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4331": {
         "Image_ID": "9105.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "517": {
         "Image_ID": "6555.JPG",
@@ -2139,7 +2139,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "519": {
         "Image_ID": "6555.JPG",
@@ -2167,7 +2167,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2161": {
         "Image_ID": "7410.JPG",
@@ -2181,14 +2181,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1476": {
         "Image_ID": "7049.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1477": {
         "Image_ID": "7049.JPG",
@@ -2202,7 +2202,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "379": {
         "Image_ID": "6460.JPG",
@@ -2223,14 +2223,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "382": {
         "Image_ID": "6460.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "383": {
         "Image_ID": "6460.JPG",
@@ -2244,7 +2244,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3014": {
         "Image_ID": "7996.JPG",
@@ -2258,21 +2258,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3016": {
         "Image_ID": "7996.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3510": {
         "Image_ID": "8430.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2730": {
         "Image_ID": "7703.JPG",
@@ -2286,7 +2286,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2732": {
         "Image_ID": "7703.JPG",
@@ -2300,14 +2300,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "760": {
         "Image_ID": "6703.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "761": {
         "Image_ID": "6703.JPG",
@@ -2328,7 +2328,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "764": {
         "Image_ID": "6703.JPG",
@@ -2349,21 +2349,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3029": {
         "Image_ID": "8002.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3030": {
         "Image_ID": "8003.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4352": {
         "Image_ID": "9116.JPG",
@@ -2384,7 +2384,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4355": {
         "Image_ID": "9116.JPG",
@@ -2398,28 +2398,28 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3273": {
         "Image_ID": "8231.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1265": {
         "Image_ID": "6936.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1266": {
         "Image_ID": "6936.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1267": {
         "Image_ID": "6936.JPG",
@@ -2447,7 +2447,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2756": {
         "Image_ID": "7721.JPG",
@@ -2468,7 +2468,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "898": {
         "Image_ID": "6755.JPG",
@@ -2482,28 +2482,28 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3348": {
         "Image_ID": "8319.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1676": {
         "Image_ID": "7178.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3017": {
         "Image_ID": "7998.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3018": {
         "Image_ID": "7998.JPG",
@@ -2517,28 +2517,28 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3448": {
         "Image_ID": "8380.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3560": {
         "Image_ID": "8470.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3561": {
         "Image_ID": "8470.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3562": {
         "Image_ID": "8470.JPG",
@@ -2552,14 +2552,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3956": {
         "Image_ID": "8966.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3957": {
         "Image_ID": "8966.JPG",
@@ -2573,14 +2573,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3326": {
         "Image_ID": "8281.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "457": {
         "Image_ID": "6520.JPG",
@@ -2594,7 +2594,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "459": {
         "Image_ID": "6520.JPG",
@@ -2608,7 +2608,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "789": {
         "Image_ID": "6710.JPG",
@@ -2643,7 +2643,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1096": {
         "Image_ID": "6842.JPG",
@@ -2664,14 +2664,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1099": {
         "Image_ID": "6842.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1100": {
         "Image_ID": "6842.JPG",
@@ -2685,14 +2685,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1509": {
         "Image_ID": "7073.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1510": {
         "Image_ID": "7073.JPG",
@@ -2706,21 +2706,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "125": {
         "Image_ID": "6344.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "126": {
         "Image_ID": "6344.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "127": {
         "Image_ID": "6344.JPG",
@@ -2741,7 +2741,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2820": {
         "Image_ID": "7784.JPG",
@@ -2755,7 +2755,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2822": {
         "Image_ID": "7784.JPG",
@@ -2776,14 +2776,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3922": {
         "Image_ID": "8953.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3923": {
         "Image_ID": "8953.JPG",
@@ -2811,21 +2811,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3685": {
         "Image_ID": "8526.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3483": {
         "Image_ID": "8406.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "329": {
         "Image_ID": "6442.JPG",
@@ -2846,14 +2846,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3035": {
         "Image_ID": "8011.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4023": {
         "Image_ID": "8996.JPG",
@@ -2867,28 +2867,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4025": {
         "Image_ID": "8996.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3241": {
         "Image_ID": "8185.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3261": {
         "Image_ID": "8216.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "749": {
         "Image_ID": "6693.JPG",
@@ -2902,14 +2902,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "751": {
         "Image_ID": "6693.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "752": {
         "Image_ID": "6693.JPG",
@@ -2930,14 +2930,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "613": {
         "Image_ID": "6625.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "614": {
         "Image_ID": "6625.JPG",
@@ -2951,14 +2951,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3074": {
         "Image_ID": "8070.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3075": {
         "Image_ID": "8070.JPG",
@@ -2972,28 +2972,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3695": {
         "Image_ID": "8531.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1482": {
         "Image_ID": "7051.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1483": {
         "Image_ID": "7051.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1484": {
         "Image_ID": "7051.JPG",
@@ -3007,7 +3007,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2371": {
         "Image_ID": "7488.JPG",
@@ -3035,21 +3035,21 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2375": {
         "Image_ID": "7488.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2655": {
         "Image_ID": "7677.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2656": {
         "Image_ID": "7677.JPG",
@@ -3063,7 +3063,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2658": {
         "Image_ID": "7677.JPG",
@@ -3084,7 +3084,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2705": {
         "Image_ID": "7693.JPG",
@@ -3105,7 +3105,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2708": {
         "Image_ID": "7693.JPG",
@@ -3119,14 +3119,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "94": {
         "Image_ID": "10840.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "95": {
         "Image_ID": "10840.JPG",
@@ -3140,7 +3140,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2277": {
         "Image_ID": "7458.JPG",
@@ -3154,14 +3154,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2279": {
         "Image_ID": "7458.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2280": {
         "Image_ID": "7458.JPG",
@@ -3182,14 +3182,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3998": {
         "Image_ID": "8978.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3999": {
         "Image_ID": "8978.JPG",
@@ -3203,14 +3203,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3973": {
         "Image_ID": "8971.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3974": {
         "Image_ID": "8971.JPG",
@@ -3238,14 +3238,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3949": {
         "Image_ID": "8963.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3950": {
         "Image_ID": "8963.JPG",
@@ -3259,7 +3259,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1349": {
         "Image_ID": "6968.JPG",
@@ -3273,7 +3273,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1351": {
         "Image_ID": "6968.JPG",
@@ -3294,14 +3294,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1172": {
         "Image_ID": "6900.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1173": {
         "Image_ID": "6900.JPG",
@@ -3329,7 +3329,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "538": {
         "Image_ID": "6564.JPG",
@@ -3357,35 +3357,35 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "542": {
         "Image_ID": "6564.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4493": {
         "Image_ID": "9890.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2975": {
         "Image_ID": "7949.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2215": {
         "Image_ID": "7430.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2216": {
         "Image_ID": "7430.JPG",
@@ -3406,7 +3406,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3597": {
         "Image_ID": "8484.JPG",
@@ -3434,14 +3434,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3659": {
         "Image_ID": "8508.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1270": {
         "Image_ID": "6938.JPG",
@@ -3462,14 +3462,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1273": {
         "Image_ID": "6938.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1274": {
         "Image_ID": "6938.JPG",
@@ -3483,14 +3483,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3718": {
         "Image_ID": "8590.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "712": {
         "Image_ID": "6662.JPG",
@@ -3504,7 +3504,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "714": {
         "Image_ID": "6662.JPG",
@@ -3518,7 +3518,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "716": {
         "Image_ID": "6662.JPG",
@@ -3539,14 +3539,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1802": {
         "Image_ID": "7244.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1803": {
         "Image_ID": "7244.JPG",
@@ -3567,7 +3567,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2327": {
         "Image_ID": "7472.JPG",
@@ -3588,14 +3588,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2330": {
         "Image_ID": "7472.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2331": {
         "Image_ID": "7472.JPG",
@@ -3616,14 +3616,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3671": {
         "Image_ID": "8517.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3672": {
         "Image_ID": "8517.JPG",
@@ -3637,14 +3637,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "185": {
         "Image_ID": "6373.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "186": {
         "Image_ID": "6373.JPG",
@@ -3658,21 +3658,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3946": {
         "Image_ID": "8962.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3947": {
         "Image_ID": "8962.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3948": {
         "Image_ID": "8962.JPG",
@@ -3686,7 +3686,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2938": {
         "Image_ID": "7902.JPG",
@@ -3700,14 +3700,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3601": {
         "Image_ID": "8485.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3602": {
         "Image_ID": "8485.JPG",
@@ -3728,7 +3728,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3605": {
         "Image_ID": "8485.JPG",
@@ -3763,21 +3763,21 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2084": {
         "Image_ID": "7344.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3188": {
         "Image_ID": "8152.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3189": {
         "Image_ID": "8152.JPG",
@@ -3791,14 +3791,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2565": {
         "Image_ID": "7609.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2566": {
         "Image_ID": "7609.JPG",
@@ -3812,7 +3812,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2568": {
         "Image_ID": "7609.JPG",
@@ -3840,14 +3840,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4168": {
         "Image_ID": "9065.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4169": {
         "Image_ID": "9065.JPG",
@@ -3868,7 +3868,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4257": {
         "Image_ID": "9087.JPG",
@@ -3896,49 +3896,49 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4261": {
         "Image_ID": "9087.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3757": {
         "Image_ID": "8799.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3060": {
         "Image_ID": "8055.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "92": {
         "Image_ID": "10836.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "164": {
         "Image_ID": "6364.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "165": {
         "Image_ID": "6364.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "166": {
         "Image_ID": "6364.JPG",
@@ -3959,21 +3959,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3577": {
         "Image_ID": "8479.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2715": {
         "Image_ID": "7697.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2716": {
         "Image_ID": "7697.JPG",
@@ -3987,7 +3987,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2718": {
         "Image_ID": "7697.JPG",
@@ -4015,14 +4015,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2499": {
         "Image_ID": "7580.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2500": {
         "Image_ID": "7580.JPG",
@@ -4043,14 +4043,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3071": {
         "Image_ID": "8068.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3072": {
         "Image_ID": "8068.JPG",
@@ -4071,21 +4071,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3081": {
         "Image_ID": "8074.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3091": {
         "Image_ID": "8081.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3092": {
         "Image_ID": "8081.JPG",
@@ -4099,7 +4099,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3333": {
         "Image_ID": "8298.JPG",
@@ -4113,42 +4113,42 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3335": {
         "Image_ID": "8298.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3654": {
         "Image_ID": "8501.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3345": {
         "Image_ID": "8315.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1207": {
         "Image_ID": "6913.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1208": {
         "Image_ID": "6913.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1209": {
         "Image_ID": "6913.JPG",
@@ -4162,7 +4162,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3321": {
         "Image_ID": "8278.JPG",
@@ -4176,7 +4176,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "766": {
         "Image_ID": "6704.JPG",
@@ -4190,14 +4190,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "768": {
         "Image_ID": "6704.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "769": {
         "Image_ID": "6704.JPG",
@@ -4225,14 +4225,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "321": {
         "Image_ID": "6437.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "322": {
         "Image_ID": "6437.JPG",
@@ -4260,14 +4260,14 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3085": {
         "Image_ID": "8077.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3086": {
         "Image_ID": "8077.JPG",
@@ -4281,14 +4281,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "861": {
         "Image_ID": "6739.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "862": {
         "Image_ID": "6739.JPG",
@@ -4309,7 +4309,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2096": {
         "Image_ID": "7356.JPG",
@@ -4323,7 +4323,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2098": {
         "Image_ID": "7356.JPG",
@@ -4344,21 +4344,21 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2978": {
         "Image_ID": "7952.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1216": {
         "Image_ID": "6919.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1217": {
         "Image_ID": "6919.JPG",
@@ -4372,28 +4372,28 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3290": {
         "Image_ID": "8244.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3049": {
         "Image_ID": "8039.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3682": {
         "Image_ID": "8524.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3385": {
         "Image_ID": "8351.JPG",
@@ -4421,28 +4421,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3389": {
         "Image_ID": "8351.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3047": {
         "Image_ID": "8037.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3831": {
         "Image_ID": "8907.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3832": {
         "Image_ID": "8907.JPG",
@@ -4456,7 +4456,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1914": {
         "Image_ID": "7288.JPG",
@@ -4491,21 +4491,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1919": {
         "Image_ID": "7288.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4420": {
         "Image_ID": "9546.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4421": {
         "Image_ID": "9546.JPG",
@@ -4526,7 +4526,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4424": {
         "Image_ID": "9546.JPG",
@@ -4547,35 +4547,35 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3235": {
         "Image_ID": "8176.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2642": {
         "Image_ID": "7671.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3355": {
         "Image_ID": "8322.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3356": {
         "Image_ID": "8322.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3357": {
         "Image_ID": "8322.JPG",
@@ -4589,7 +4589,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1963": {
         "Image_ID": "7306.JPG",
@@ -4617,7 +4617,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1967": {
         "Image_ID": "7306.JPG",
@@ -4631,28 +4631,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3309": {
         "Image_ID": "8269.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1657": {
         "Image_ID": "7163.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1321": {
         "Image_ID": "6957.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1322": {
         "Image_ID": "6957.JPG",
@@ -4666,7 +4666,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3432": {
         "Image_ID": "8371.JPG",
@@ -4680,14 +4680,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3434": {
         "Image_ID": "8371.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3435": {
         "Image_ID": "8371.JPG",
@@ -4729,14 +4729,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1021": {
         "Image_ID": "6806.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "654": {
         "Image_ID": "6646.JPG",
@@ -4757,14 +4757,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "657": {
         "Image_ID": "6646.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "658": {
         "Image_ID": "6646.JPG",
@@ -4799,14 +4799,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2320": {
         "Image_ID": "7467.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2321": {
         "Image_ID": "7467.JPG",
@@ -4820,14 +4820,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3566": {
         "Image_ID": "8473.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3567": {
         "Image_ID": "8473.JPG",
@@ -4848,14 +4848,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "171": {
         "Image_ID": "6367.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "172": {
         "Image_ID": "6367.JPG",
@@ -4869,7 +4869,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1063": {
         "Image_ID": "6829.JPG",
@@ -4883,7 +4883,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1065": {
         "Image_ID": "6829.JPG",
@@ -4897,7 +4897,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1256": {
         "Image_ID": "6934.JPG",
@@ -4911,7 +4911,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1258": {
         "Image_ID": "6934.JPG",
@@ -4932,7 +4932,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2577": {
         "Image_ID": "7614.JPG",
@@ -4953,7 +4953,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded,non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2580": {
         "Image_ID": "7614.JPG",
@@ -4981,14 +4981,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "83": {
         "Image_ID": "10821.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "347": {
         "Image_ID": "6451.JPG",
@@ -5009,7 +5009,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3403": {
         "Image_ID": "8357.JPG",
@@ -5023,14 +5023,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3405": {
         "Image_ID": "8357.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2775": {
         "Image_ID": "7748.JPG",
@@ -5044,7 +5044,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2777": {
         "Image_ID": "7748.JPG",
@@ -5058,7 +5058,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1786": {
         "Image_ID": "7240.JPG",
@@ -5079,7 +5079,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1789": {
         "Image_ID": "7240.JPG",
@@ -5093,7 +5093,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2908": {
         "Image_ID": "7882.JPG",
@@ -5107,14 +5107,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3572": {
         "Image_ID": "8477.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3573": {
         "Image_ID": "8477.JPG",
@@ -5128,21 +5128,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1502": {
         "Image_ID": "7071.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1503": {
         "Image_ID": "7071.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1504": {
         "Image_ID": "7071.JPG",
@@ -5156,14 +5156,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1330": {
         "Image_ID": "6964.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1331": {
         "Image_ID": "6964.JPG",
@@ -5191,14 +5191,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2124": {
         "Image_ID": "7366.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2125": {
         "Image_ID": "7366.JPG",
@@ -5226,14 +5226,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1511": {
         "Image_ID": "7075.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1512": {
         "Image_ID": "7075.JPG",
@@ -5247,28 +5247,28 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3451": {
         "Image_ID": "8385.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1830": {
         "Image_ID": "7257.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1831": {
         "Image_ID": "7257.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1832": {
         "Image_ID": "7257.JPG",
@@ -5296,7 +5296,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4485": {
         "Image_ID": "9879.JPG",
@@ -5338,42 +5338,42 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1254": {
         "Image_ID": "6933.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3037": {
         "Image_ID": "8014.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1455": {
         "Image_ID": "7036.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "739": {
         "Image_ID": "6686.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "740": {
         "Image_ID": "6686.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "741": {
         "Image_ID": "6686.JPG",
@@ -5387,7 +5387,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2396": {
         "Image_ID": "7523.JPG",
@@ -5408,7 +5408,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2399": {
         "Image_ID": "7523.JPG",
@@ -5422,7 +5422,7 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "606": {
         "Image_ID": "6622.JPG",
@@ -5436,14 +5436,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "608": {
         "Image_ID": "6622.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1461": {
         "Image_ID": "7043.JPG",
@@ -5464,14 +5464,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "420": {
         "Image_ID": "6492.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "421": {
         "Image_ID": "6492.JPG",
@@ -5492,7 +5492,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "424": {
         "Image_ID": "6492.JPG",
@@ -5506,14 +5506,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "239": {
         "Image_ID": "6404.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "240": {
         "Image_ID": "6404.JPG",
@@ -5527,21 +5527,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4131": {
         "Image_ID": "9052.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4132": {
         "Image_ID": "9052.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "4133": {
         "Image_ID": "9052.JPG",
@@ -5569,7 +5569,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "359": {
         "Image_ID": "6456.JPG",
@@ -5590,7 +5590,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "362": {
         "Image_ID": "6456.JPG",
@@ -5604,21 +5604,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3726": {
         "Image_ID": "8604.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3124": {
         "Image_ID": "8095.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3125": {
         "Image_ID": "8095.JPG",
@@ -5632,42 +5632,42 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3054": {
         "Image_ID": "8046.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4491": {
         "Image_ID": "9885.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3715": {
         "Image_ID": "8587.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3106": {
         "Image_ID": "8087.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3107": {
         "Image_ID": "8087.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3108": {
         "Image_ID": "8087.JPG",
@@ -5688,21 +5688,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3884": {
         "Image_ID": "8931.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3280": {
         "Image_ID": "8235.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3281": {
         "Image_ID": "8235.JPG",
@@ -5716,21 +5716,21 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3274": {
         "Image_ID": "8232.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3275": {
         "Image_ID": "8232.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3276": {
         "Image_ID": "8232.JPG",
@@ -5744,21 +5744,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1315": {
         "Image_ID": "6955.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1316": {
         "Image_ID": "6955.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1317": {
         "Image_ID": "6955.JPG",
@@ -5772,21 +5772,21 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3224": {
         "Image_ID": "8173.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3225": {
         "Image_ID": "8173.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "3226": {
         "Image_ID": "8173.JPG",
@@ -5800,14 +5800,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2861": {
         "Image_ID": "7828.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2862": {
         "Image_ID": "7828.JPG",
@@ -5821,21 +5821,21 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2037": {
         "Image_ID": "7325.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2038": {
         "Image_ID": "7325.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2039": {
         "Image_ID": "7325.JPG",
@@ -5877,7 +5877,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "1346": {
         "Image_ID": "6967.JPG",
@@ -5891,7 +5891,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "1348": {
         "Image_ID": "6967.JPG",
@@ -5905,14 +5905,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2003": {
         "Image_ID": "7317.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2004": {
         "Image_ID": "7317.JPG",
@@ -5933,7 +5933,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2007": {
         "Image_ID": "7317.JPG",
@@ -5961,14 +5961,14 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2443": {
         "Image_ID": "7557.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2444": {
         "Image_ID": "7557.JPG",
@@ -5989,7 +5989,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2685": {
         "Image_ID": "7686.JPG",
@@ -6017,14 +6017,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2689": {
         "Image_ID": "7686.JPG",
         "Question": "What is the condition of road?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "840": {
         "Image_ID": "6731.JPG",
@@ -6045,14 +6045,14 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "3313": {
         "Image_ID": "8275.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2294": {
         "Image_ID": "7462.JPG",
@@ -6066,7 +6066,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2296": {
         "Image_ID": "7462.JPG",
@@ -6094,21 +6094,21 @@
         "Question": "What is the condition of road?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2869": {
         "Image_ID": "7832.JPG",
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "2026": {
         "Image_ID": "7322.JPG",
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "2027": {
         "Image_ID": "7322.JPG",
@@ -6143,7 +6143,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "256": {
         "Image_ID": "6413.JPG",
@@ -6164,7 +6164,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "259": {
         "Image_ID": "6413.JPG",
@@ -6178,7 +6178,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4216": {
         "Image_ID": "9077.JPG",
@@ -6192,7 +6192,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "4218": {
         "Image_ID": "9077.JPG",
@@ -6213,7 +6213,7 @@
         "Question": "What is the condition of the road in this image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Filter(Road)"
+        "Program": "Filter(Road) & Condition"
     },
     "873": {
         "Image_ID": "6746.JPG",
@@ -6227,7 +6227,7 @@
         "Question": "What is the overall condition of the given image?",
         "Ground_Truth": "non flooded",
         "Question_Type": "Condition_Recognition",
-        "Program": "Classify_Overall_Flood_Condition"
+        "Program": "Filter(All) & Condition"
     },
     "875": {
         "Image_ID": "6746.JPG",

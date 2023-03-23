@@ -7,8 +7,7 @@ import random
 import logging
 import argparse
 import numpy as np
-from sklearn.metrics import f1_score, precision_score
-
+from sklearn.metrics import f1_score, precision_score, confusion_matrix
 import torch
 from torch import nn
 from tqdm import tqdm, trange
@@ -132,10 +131,12 @@ def main():
     total_complex = 0
     total_yesno = 0
     total_condition = 0
+    total_road_condition = 0
     eval_simple_matches = 0
     eval_complex_matches = 0
     eval_yesno_matches = 0
     eval_condition_matches = 0
+    eval_road_condition_matches = 0
     y_true_total = []
     y_pred_total = []
     y_true_simple = []
@@ -146,6 +147,8 @@ def main():
     y_pred_yesno = []
     y_true_condition = []
     y_pred_condition = []
+    y_true_road_condition = []
+    y_pred_road_condition = []
 
     for step, batch in enumerate(test_data_loader):
         if device != torch.device("cpu"):
@@ -200,22 +203,44 @@ def main():
                     eval_condition_matches += 1
                 y_true_condition.append(answer_id[id].cpu())
                 y_pred_condition.append(logits[id].cpu())
+            if qs_type[id] == 'Road_Condition_Recognition':
+                total_road_condition += 1
+                if logits[id] == answer_id[id]:
+                    eval_road_condition_matches += 1
+                y_true_road_condition.append(answer_id[id].cpu())
+                y_pred_road_condition.append(logits[id].cpu())
+
+    y_true_np = np.array(y_true_total)
+    y_pred_np = np.array(y_pred_total)
+    path = '/DATA/FloodNet/Code/TMN_FloodNet/Confusion_Matrix/'
+    np.save(path+'y_true.npy',y_true_np)
+    np.save(path+'y_pred.npy',y_true_np)
+    print('Labels Saved')
 
     eval_acc = eval_total_matches / float(len(test_dataset))
     eval_f1 = f1_score(y_true_total, y_pred_total, average='weighted')
     eval_prec = precision_score(y_true_total, y_pred_total, average='weighted')
+    
     eval_simple_acc = eval_simple_matches / float(total_simple)
     eval_simple_f1 = f1_score(y_true_simple, y_pred_simple, average='weighted')
     eval_simple_prec = precision_score(y_true_simple, y_pred_simple, average='weighted')
+    
     eval_complex_acc = eval_complex_matches / float(total_complex)
     eval_complex_f1 = f1_score(y_true_complex, y_pred_complex, average='weighted')
     eval_complex_prec = precision_score(y_true_complex, y_pred_complex, average='weighted')
+    
     eval_yesno_acc = eval_yesno_matches / float(total_yesno)
     eval_yesno_f1 = f1_score(y_true_yesno, y_pred_yesno, average='weighted')
     eval_yesno_prec = precision_score(y_true_yesno, y_pred_yesno, average='weighted')
+    
     eval_condition_acc = eval_condition_matches / float(total_condition)
     eval_condition_f1 = f1_score(y_true_condition, y_pred_condition, average='weighted')
     eval_condition_prec = precision_score(y_true_condition, y_pred_condition, average='weighted')
+    
+    eval_road_condition_acc = eval_road_condition_matches / float(total_road_condition)
+    eval_road_condition_f1 = f1_score(y_true_road_condition, y_pred_road_condition, average='weighted')
+    eval_road_condition_prec = precision_score(y_true_road_condition, y_pred_road_condition, average='weighted')
+    
     eval_loss = eval_total_loss / float(len(test_dataset))
 
     print('Test Results:') 
@@ -224,9 +249,24 @@ def main():
     print(f'Complex Counting::              Accuracy: {"{:.4f}".format(eval_complex_acc)}       F1 Score: {"{:.4f}".format(eval_complex_f1)}        Precision: {"{:.4f}".format(eval_complex_prec)}', flush=True)
     print(f'Yes-No Question                 Accuracy: {"{:.4f}".format(eval_yesno_acc)}       F1 Score: {"{:.4f}".format(eval_yesno_f1)}        Precision: {"{:.4f}".format(eval_yesno_prec)}', flush=True)
     print(f'Condition-Recongnition Question Accuracy: {"{:.4f}".format(eval_condition_acc)}       F1 Score: {"{:.4f}".format(eval_condition_f1)}        Precision: {"{:.4f}".format(eval_condition_prec)}', flush=True)
+    print(f'Road Condition Question         Accuracy: {"{:.4f}".format(eval_road_condition_acc)}       F1 Score: {"{:.4f}".format(eval_road_condition_f1)}        Precision: {"{:.4f}".format(eval_road_condition_prec)}', flush=True)
     print(f'Total Cross-Entropy::               Loss: {"{:.4f}".format(eval_loss)}', flush=True)
     logger.info('Model Testing Finished')
     print('Experiment Finished')
+
+    print('Confusion Matrix::')
+    print('Final Confusion Matrix Overall')
+    print(confusion_matrix(y_true_total, y_pred_total))
+    print('Simple Counting')
+    print(confusion_matrix(y_true_simple, y_pred_simple))
+    print('Complex Counting')
+    print(confusion_matrix(y_true_complex, y_pred_complex))
+    print('Yes-No')
+    print(confusion_matrix(y_true_yesno, y_pred_yesno))
+    print('Image Condition Recongnition')
+    print(confusion_matrix(y_true_condition, y_pred_condition))
+    print('Road Condition Recognition')
+    print(confusion_matrix(y_true_road_condition, y_pred_road_condition))
 
 if __name__ == "__main__":
     main()

@@ -277,6 +277,7 @@ def main():
                     global_loss_tmp = 0
                     global_matches_tmp = 0
 
+        '''
         # Validation after Each Epoch 
         torch.set_grad_enabled(False)
         model.eval()
@@ -328,13 +329,20 @@ def main():
             output_model_file = os.path.join(savePath, "TMN_FloodNet_L" + str(args.num_module_layers) + '_Ep' + str(int(args.num_epochs)) + '_ImSize' + str(int(args.im_height)) + ".bin")
 
         torch.save(model_to_save.state_dict(), output_model_file)
-
-    logger.info('Finished Training and Validation')
-    print('Best Validation Accuracy: ' + "{:.4f}".format(best_eval_score))
+        '''
     
+    model_to_save = (model.module if hasattr(model, "module") else model)  # Only save the model it-self
+    output_model_file = os.path.join(savePath, "TMN_FloodNet_L" + str(args.num_module_layers) + '_Ep' + str(int(args.num_epochs)) + '_ImSize' + str(int(args.im_height)) + ".bin")
+    torch.save(model_to_save.state_dict(), output_model_file)
+
+    #logger.info('Finished Training and Validation')
+    #print('Best Validation Accuracy: ' + "{:.4f}".format(best_eval_score))
+    
+    # Model Testing
     logger.info('Model Testing Started')
     torch.set_grad_enabled(False)
-    Inference_Model = best_model
+    #Inference_Model = best_model
+    Inference_Model = model
     Inference_Model.to(device)
     Inference_Model.eval()
     print('Best Validation Model Loaded for Testing')
